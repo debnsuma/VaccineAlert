@@ -43,7 +43,7 @@ def get_slot(pin_code, current_data):
 
 st.title('CoWIN Vaccination Slot in my area')
 st.info('The CoWIN APIs are geo-fenced so sometimes you may not see an output! Please try after sometime')
-st.write("**Enter you PIN Code**")
+st.write("**Enter your PIN Code**")
 pin_code = st.number_input("",value=110001)
 current_data = date.today().strftime("%d-%m-%y")
 
